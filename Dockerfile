@@ -10,4 +10,4 @@ RUN chown -R postgres:postgres /bin && \
     chown postgres:postgres /launch.sh && \
     sed -i '10 a rm /etc/supervisor/conf.d/cron.conf' /launch.sh
 
-USER postgres
+USER 101
